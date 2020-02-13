@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(minders.jpeg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin: 30px;
+    
+}
+.main-nav li{
+    display: inline-block;
+
+}
+.main-nav a
+{
+    color: rgb(212, 31, 31);
+    padding: 5px 20px;
+    font-family:sans-serif;
+    font-size: 15px;
+
+}
+.main-nav li.active a{
+    border: 1px solid rgb(12, 12, 12);
+}
+.main-nav li a:hover{
+    border: 1px solid rgb(231, 228, 228);
+}
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left:0 ;
+    margin-top: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 275px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one{
+    background-color: darkgreen;
+    font-family: sans-serif;
+}
+.btn-two{
+    font-family: sans-serif;
+}
+.btn-two:hover{
+    background-color: darkgreen;
+}
